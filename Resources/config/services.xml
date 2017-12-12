@@ -10,7 +10,7 @@
             <argument>KibaticCmsBundle:Block</argument>
         </service>
         
-        <service id="Kibatic\CmsBundle\BlockTypeChain" />
+        <service id="Kibatic\CmsBundle\BlockTypeChain" class="Kibatic\CmsBundle\BlockTypeChain" />
 
         <!-- Block Form -->
 
