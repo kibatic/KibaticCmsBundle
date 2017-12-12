@@ -16,7 +16,7 @@
 ```
 
 ```
-composer require kibatic/cms-bundle dev-master
+composer require kibatic/cms-bundle dev-php5
 ```
 
 ```
