@@ -4,5 +4,5 @@ namespace Kibatic\CmsBundle\Form;
 
 interface BlockTypeInterface
 {
-    public static function getBlockTypeName(): string;
+    public static function getBlockTypeName();
 }

@@ -28,7 +28,7 @@ class AlertBlockType extends AbstractBlockType implements BlockTypeInterface
         return 'kibatic_cmsbundle_alertblock';
     }
 
-    public static function getBlockTypeName(): string
+    public static function getBlockTypeName()
     {
         return 'alert';
     }

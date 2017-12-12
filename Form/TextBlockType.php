@@ -24,7 +24,7 @@ class TextBlockType extends AbstractBlockType implements BlockTypeInterface
         return 'kibatic_cmsbundle_textblock';
     }
 
-    public static function getBlockTypeName(): string
+    public static function getBlockTypeName()
     {
         return 'text';
     }

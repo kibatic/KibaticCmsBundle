@@ -17,17 +17,17 @@ class BlockTypeChain
         $this->blockTypes[$blockType::getBlockTypeName()] = $blockType;
     }
 
-    public function getBlockType(string $typeName): BlockTypeInterface
+    public function getBlockType($typeName)
     {
         return $this->blockTypes[$typeName];
     }
 
-    public function getBlockTypes(): array
+    public function getBlockTypes()
     {
         return $this->blockTypes;
     }
 
-    public function getBlockTypeNames(): array
+    public function getBlockTypeNames()
     {
         $names = [];
 

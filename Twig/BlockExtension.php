@@ -28,7 +28,7 @@ class BlockExtension extends \Twig_Extension
         return [
             new \Twig_Function(
                 'cms_block',
-                function (string $slug, bool $strict = false) {
+                function ($slug, $strict = false) {
                     /**
                      * @var Block $block
                      */

@@ -27,7 +27,7 @@ class HtmlBlockType extends AbstractBlockType implements BlockTypeInterface
         return 'kibatic_cmsbundle_htmlblock';
     }
 
-    public static function getBlockTypeName(): string
+    public static function getBlockTypeName()
     {
         return 'html';
     }
