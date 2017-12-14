@@ -8,7 +8,7 @@
             <generator strategy="AUTO"/>
         </id>
         <field name="slug" type="string" length="255" unique="true" />
-        <field name="content" type="json" nullable="true" />
+        <field name="content" type="json_array" nullable="true" />
         <field name="type" type="string" length="255" nullable="false" />
         <field name="createdAt" type="datetime">
             <gedmo:timestampable on="create"/>
