@@ -28,7 +28,7 @@ class BlockController extends Controller
         ]);
     }
 
-    public function newAction(Request $request, string $typeName)
+    public function newAction(Request $request, $typeName)
     {
         $this->assertIsCmsAdmin();
 
@@ -62,7 +62,7 @@ class BlockController extends Controller
         ]);
     }
 
-    public function showAction(Request $request, string $slug, string $template = null)
+    public function showAction(Request $request, $slug, $template = null)
     {
         /**
          * @var Block $block
