@@ -16,14 +16,14 @@ abstract class AbstractBlockType extends AbstractType
     {
         $builder
             ->add('slug', null, [
-                'label_render' => false,
+                'label' => false,
                 'attr' => [
                     'placeholder' => 'Slug',
                     'title' => 'Warning : be very carefull when changing the slug as it could break the page you use this block !'
                 ]
             ])
             ->add('content', null, [
-                'label_render' => false,
+                'label' => false,
                 'attr' => [
                     'placeholder' => 'Content'
                 ]

@@ -15,7 +15,7 @@ class AlertBlockType extends AbstractBlockType implements BlockTypeInterface
 
         $builder
             ->add('content', AlertType::class, [
-                'label_render' => false
+                'label' => false
             ])
         ;
     }
